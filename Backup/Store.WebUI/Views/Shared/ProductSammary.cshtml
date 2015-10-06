@@ -1,0 +1,17 @@
+﻿@model Store.Domain.Entities.Product
+
+<div class="well">
+    <h3>
+        <strong>@Model.Name</strong>
+        <span class="pull-right label label-primary">@Model.Price.ToString("# grn") </span>
+    </h3>
+    @using (Html.BeginForm("AddToCart", "Cart"))
+    {
+        <div class="pull-right">
+            @Html.HiddenFor(p => p.ProductID)
+            @Html.Hidden("returnUrl",Request.Url.PathAndQuery)
+            <input type="submit" class="btn btn-success" value="Add to Cart!" />
+        </div>
+    }
+    <span class="lead">@Model.Discription</span>
+</div>

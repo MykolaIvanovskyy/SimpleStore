@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Domain", "Store.Domain\Store.Domain.csproj", "{51AA82FB-581E-4BED-B0D2-8B986AB726D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.WebUI", "Store.WebUI\Store.WebUI.csproj", "{4E7D925C-F4F5-4425-900E-E7B196C0D851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.UnitTestProject", "Store.UnitTestProject\Store.UnitTestProject.csproj", "{A446D2B1-7EF0-4037-AC46-E7D1AB9B0BEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51AA82FB-581E-4BED-B0D2-8B986AB726D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51AA82FB-581E-4BED-B0D2-8B986AB726D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51AA82FB-581E-4BED-B0D2-8B986AB726D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51AA82FB-581E-4BED-B0D2-8B986AB726D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7D925C-F4F5-4425-900E-E7B196C0D851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7D925C-F4F5-4425-900E-E7B196C0D851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7D925C-F4F5-4425-900E-E7B196C0D851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7D925C-F4F5-4425-900E-E7B196C0D851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A446D2B1-7EF0-4037-AC46-E7D1AB9B0BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A446D2B1-7EF0-4037-AC46-E7D1AB9B0BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A446D2B1-7EF0-4037-AC46-E7D1AB9B0BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A446D2B1-7EF0-4037-AC46-E7D1AB9B0BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

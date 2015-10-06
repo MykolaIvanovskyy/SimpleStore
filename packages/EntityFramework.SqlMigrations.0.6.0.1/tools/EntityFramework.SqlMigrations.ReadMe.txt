@@ -1,0 +1,6 @@
+-----------------------------------------------------
+  EntityFramework.SqlMigrations PACKAGE IS OBSOLETE    
+-----------------------------------------------------
+
+
+Code First Migrations is now available as the EntityFramework.Migrations package.
